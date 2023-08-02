@@ -19,16 +19,7 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-		<script src="https//cdn.tailwindcss.com"></script>
-		<!-- <style type="text/tailwindcss">
-            @layout utilities {
-                .btn-primary {
-                    @apply inline-block py-4 px-[39px] bg-[#0099ff] border-0 text-white 
-                }
-            }
 
-        </style> -->
-		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<title>Document</title>
@@ -36,11 +27,16 @@
 
 	<body>
 		<header>
-			<div class="container">
+			<div class="container11">
 				<div class="header-main">
 					<a href="">
 						<img srcset="./image/Frame.png 2x" alt="" />
 					</a>
+					<input type="checkbox" id="click" />
+					<label for="click" class="menu-btn">
+						<i class="fas fa-bars"></i>
+					</label>
+
 					<nav>
 						<ul class="main-menu">
 							<li class="main-menu-item">
@@ -50,20 +46,17 @@
 								<a class="main-menu-link" href="#services">Services</a>
 							</li>
 							<li class="main-menu-item">
-								<a class="main-menu-link" href="#about-us">About-us</a>
+								<a class="main-menu-link" href="#about-me">About-Me</a>
+							</li>
+
+							<li class="main-menu-item">
+								<a class="main-menu-link" href="#portfolio">Projects</a>
 							</li>
 							<li class="main-menu-item">
-								<a class="main-menu-link" href="./portfolio.html">Projects</a>
-							</li>
-							<li class="main-menu-item">
-								<a class="main-menu-link" href="#portfolio">Portfolio</a>
+								<a class="main-menu-link" href="#contact">Contact</a>
 							</li>
 						</ul>
 					</nav>
-					<button class="btn-primary">Contact</button>
-				</div>
-				<div class="bars">
-					<i class="fa-solid fa-bars"></i>
 				</div>
 			</div>
 		</header>
@@ -72,18 +65,22 @@
 			<div class="container">
 				<div class="banner-row row-2">
 					<div class="banner-col">
-						<h2 class="banner-title title-public">We are the best agency in the world</h2>
+						<h2 class="banner-title title-public">Hello, I am</h2>
+						<h3 class="banner-title title-public">Kiều Quang Dũng</h3>
+						<h3 class="banner-title">Web Developer</h3>
 						<p class="banner-desc desc-public">
 							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
 							consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
 						</p>
 						<div class="banner-btn">
-							<a href="" class="btn-primary">Start a project</a>
-							<a href="" class="btn-secondary">Learn more</a>
+							<p class="btn-primary">Phone: <a href="tel:0961467725">0961467725</a></p>
+							<p class="btn-secondary">
+								Email: <a href="mailto:dungkieu002@gmail.com">dungkieu002@gmail.com</a>
+							</p>
 						</div>
 					</div>
 					<div class="banner-col">
-						<img srcset="./image/Group38574.png 2x" alt="111" class="img-fluid" />
+						<img srcset="./image/IMG_0848.png 2x" alt="111" class="img-fluid" />
 					</div>
 				</div>
 			</div>
@@ -122,7 +119,7 @@
 							</div>
 							<div class="services-info">
 								<h3 class="services-name">
-									<a href="" class="services-link">Web Design</a>
+									<a href="" class="services-link">UX/UI</a>
 								</h3>
 								<p class="services-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 							</div>
@@ -135,7 +132,7 @@
 							</div>
 							<div class="services-info">
 								<h3 class="services-name">
-									<a href="" class="services-link">Web Design</a>
+									<a href="" class="services-link">SEO</a>
 								</h3>
 								<p class="services-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 							</div>
@@ -143,7 +140,7 @@
 						<div class="services-col">
 							<div class="services-img">
 								<a href="">
-									<img srcset="./image/Ellipse3.png 2x" alt="" class="img-fluid" />
+									<img srcset="./image/programming1.png 2x" alt="" class="img-fluid" />
 								</a>
 							</div>
 							<div class="services-info">
@@ -166,7 +163,7 @@
 					</div>
 					<div class="about-us-col">
 						<header class="about-us-header">
-							<h3>About US</h3>
+							<h3>About Me</h3>
 							<h2 class="about-us-title">
 								<a href="" class="about-link">We are a creative agency</a>
 							</h2>
@@ -177,13 +174,94 @@
 								Ac sagittis tellus, sodales commodo elit, sociis purus. Egestas mauris eget commodo
 								commodo et vel fermentum ultrices.
 							</p>
-							<a href="" class="btn-primary more-about">More About Us</a>
+							<a href="" class="btn-primary more-about">More About Me</a>
 						</header>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--End About us -->
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+				<header class="section-header portfolio-header">
+					<h2 class="section-heading portfolio-heading">Projects</h2>
+					<h3 class="section-sologan portfolio-sologan">
+						<a href="" class="portfolio-link">My recent Project</a>
+					</h3>
+					<p class="portfolio-desc">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt mi blandit et ac elit eros,
+						viverra. Elementum pellentesque sed scelerisque pellentesque auctor accumsan, velit posuere
+						eget.
+					</p>
+				</header>
+				<div class="section-body">
+					<div class="portfolio-row row-3">
+						<div class="portfolio-col">
+							<div class="portfolio-img">
+								<a href="">
+									<img srcset="./image/pp01.png 2x" alt="" class="img-fluid" />
+								</a>
+							</div>
+							<div class="portfolio-info">
+								<h3 class="portfolio-name">
+									<a href="" class="portfolio-link"> An Khanh Home </a>
+								</h3>
+								<p class="portfolio-descriptio">
+									An Khánh Home là dự website giới thiệu sản phầm nội thất - đây là dự án thực tế được
+									thuê từ khách hàng . Web được viết bằng Php, Laravel và MySQLWorkbench.
+								</p>
+								<a href="" class="read-more"
+									>View Detail
+									<img src="./image/Vector.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-col">
+							<div class="portfolio-img">
+								<a href="">
+									<img srcset="./image/pp02.png 2x" alt="" class="img-fluid" />
+								</a>
+							</div>
+							<div class="portfolio-info">
+								<h3 class="portfolio-name">
+									<a href="" class="portfolio-link"> Kiem Dinh MKV </a>
+								</h3>
+								<p class="portfolio-descriptio">
+									Kiểm Định MKV là dự website giới thiệu máy móc và các thiết bị đặc thù - đây là dự
+									án thực tế được thuê từ khách hàng . Web được viết bằng Php, Laravel và
+									MySQLWorkbench.
+								</p>
+								<a href="" class="read-more"
+									>View Detail
+									<img src="./image/Vector.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-col">
+							<div class="portfolio-img">
+								<a href="">
+									<img srcset="./image/p03.png 2x" alt="" class="img-fluid" />
+								</a>
+							</div>
+							<div class="portfolio-info">
+								<h3 class="portfolio-name">
+									<a href="" class="portfolio-link"> Cosmetics E-commerce </a>
+								</h3>
+								<p class="portfolio-descriptio">
+									Cosmecos là project trong quá trình học tập ở trường và kiến thức khi đi thực tập
+									làm việc. Dự án được sử dụng MERN(MongoDB, Express, React, NodeJS) Stack để viết.
+								</p>
+								<a href="" class="read-more">View Detail <img src="./image/Vector.svg" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="see">
+						<a href="" class="btn-primary see-all">See All Projects </a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Portfolio-->
 		<section class="our-team">
 			<div class="container">
 				<header class="section-header our-team-header">
@@ -278,86 +356,7 @@
 			</div>
 		</section>
 		<!--end our team-->
-		<section id="portfolio" class="portfolio">
-			<div class="container">
-				<header class="section-header portfolio-header">
-					<h2 class="section-heading portfolio-heading">Portfolio</h2>
-					<h3 class="section-sologan portfolio-sologan">
-						<a href="" class="portfolio-link">Our Recent Works</a>
-					</h3>
-					<p class="portfolio-desc">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt mi blandit et ac elit eros,
-						viverra. Elementum pellentesque sed scelerisque pellentesque auctor accumsan, velit posuere
-						eget.
-					</p>
-				</header>
-				<div class="section-body">
-					<div class="portfolio-row row-3">
-						<div class="portfolio-col">
-							<div class="portfolio-img">
-								<a href="">
-									<img srcset="./image/1.png 2x" alt="" class="img-fluid" />
-								</a>
-							</div>
-							<div class="portfolio-info">
-								<h3 class="portfolio-name">
-									<a href="" class="portfolio-link"> Real estate websites </a>
-								</h3>
-								<p class="portfolio-descriptio">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur
-									malesuada sodales enim viverra odio diam. Nascetur dui elementum,
-								</p>
-								<a href="" class="read-more"
-									>Read more
-									<img src="./image/Vector.svg" alt="" />
-								</a>
-							</div>
-						</div>
-						<div class="portfolio-col">
-							<div class="portfolio-img">
-								<a href="">
-									<img srcset="./image/2.png 2x" alt="" class="img-fluid" />
-								</a>
-							</div>
-							<div class="portfolio-info">
-								<h3 class="portfolio-name">
-									<a href="" class="portfolio-link"> Real estate websites </a>
-								</h3>
-								<p class="portfolio-descriptio">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur
-									malesuada sodales enim viverra odio diam. Nascetur dui elementum,
-								</p>
-								<a href="" class="read-more"
-									>Read more
-									<img src="./image/Vector.svg" alt="" />
-								</a>
-							</div>
-						</div>
-						<div class="portfolio-col">
-							<div class="portfolio-img">
-								<a href="">
-									<img srcset="./image/3.png 2x" alt="" class="img-fluid" />
-								</a>
-							</div>
-							<div class="portfolio-info">
-								<h3 class="portfolio-name">
-									<a href="" class="portfolio-link"> Real estate websites </a>
-								</h3>
-								<p class="portfolio-descriptio">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur
-									malesuada sodales enim viverra odio diam. Nascetur dui elementum,
-								</p>
-								<a href="" class="read-more">Read more <img src="./image/Vector.svg" alt="" /></a>
-							</div>
-						</div>
-					</div>
-					<div class="see">
-						<a href="" class="btn-primary see-all">See All Portfolio </a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--End Portfolio-->
+
 		<section class="faqs">
 			<div class="container">
 				<header class="section-header faqs-header">
@@ -527,16 +526,47 @@
 			</div>
 		</section>
 		<!-- End rate-->
-		<section class="subscribe">
+		<section class="subscribe" id="contact">
 			<div class="container">
 				<div class="subscribe-row">
 					<div class="subscribe-col">
 						<div class="subscribe-header">
-							<h2 class="subscribe-tilte">Do you have a project in mind?</h2>
+							<h2 class="subscribe-tilte">
+								Contact
+								<strong style="color: #0099ff">me!</strong>
+							</h2>
 							<p class="subscribe-desc">
 								Lorem ipsum dolor sit amet consectetur adipiscing elit amet diam in est pharetra
 								porttitor libero.
 							</p>
+							<div class="contact-row">
+								<div class="contact-col">
+									<div class="input-email">
+										<input type="text" placeholder="Enter your name" class="email" />
+									</div>
+								</div>
+								<div class="contact-col">
+									<div class="input-email">
+										<input type="text" placeholder="Enter your email" class="email" />
+									</div>
+								</div>
+							</div>
+							<div class="contact-row">
+								<div class="contact-col">
+									<div class="input-email">
+										<input type="text" placeholder="Enter your phone" class="email" />
+									</div>
+								</div>
+								<div class="contact-col">
+									<div class="input-email">
+										<textarea
+											type="text"
+											placeholder="Enter your content"
+											class="input-content"
+										></textarea>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="btn-subscribe">
 							<a href="" class="subscribe btn-primary primary-2">Let’s talk</a>
@@ -610,6 +640,10 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="text-center">
+				Copyright © 2023. Design by: <strong style="color: #0099ff"> KieuQuangDung</strong>. All rights
+				reserved.
 			</div>
 		</footer>
 	</body>
